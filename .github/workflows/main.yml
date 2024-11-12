@@ -1,0 +1,15 @@
+name: Primer workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bajar codigo
+        uses: actions/checkout@v4
+      - name: Probar codigo
+        run: python3 main.py
