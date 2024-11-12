@@ -14,4 +14,4 @@ jobs:
       - name: Testt
         run: pip install pytest
       - name: Probar codigo
-        run: pytest main.py
+        run: pytest test.py
