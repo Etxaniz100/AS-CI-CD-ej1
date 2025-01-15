@@ -17,7 +17,9 @@ jobs:
       
     - name: Comandos
       run: pip install pytest
-           pytest test.py
+      
+    - name: Comandos2
+      run: pytest test.py
       
     - name: Docker build
       uses: docker/build-push-action@v6
