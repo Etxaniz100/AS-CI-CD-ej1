@@ -2,7 +2,7 @@ name: examen-workflow
 on: 
   push:
     branches:
-    - nueva-caracteristica
+    - main
     
 jobs:
   tarea:
